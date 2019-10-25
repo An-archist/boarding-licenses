@@ -1,18 +1,3 @@
-mission "Boarding License A (Republic)"
-	name "Boarding License A"
-	description "Hunt down the <npc>, who has been spotted in the <system> system. Destroy it, then return to <planet> to get your Class A Boarding License."
-	minor
-	to offer
-		not "license: Class A Boarding"
-		"combat rating" > 150
-		random > 50
-	source
-		government "Republic"
-	npc kill
-		government "Bounty"
-		personality heroic staying nemesis target
-		system "Mintaka"
-
 mission "Boarding License A (Free Worlds)"
 	landing
 	source
@@ -39,19 +24,6 @@ mission "Boarding License A (Free Worlds)"
 			label license
 			`	The officer then walks away, leaving you with your brand-new license.`
 				decline
-
-mission "Boarding License A (Deep)"
-	name "Boarding License A"
-	description "Hunt down the <npc>, who has been spotted stealing mystery cubes in the <system> system. Destroy it, then return to <planet to get your Class A Boarding License."
-	minor
-
-mission "Boarding License A (Syndicate)"
-
-mission "Boarding License B (Deep)"
-
-mission "Boarding License B (Free Worlds)"
-
-mission "Boarding License C (Free Worlds)"
 
 mission "Boarding License C (Deep)"
 	landing
@@ -220,18 +192,6 @@ mission "Boarding License D (Free Worlds Reconcilliation)"
 			label thanks2
 			`	"No, thank you, captain. You've done a great service for all of human space. And beyond." He then walks away, leaving you alone with your new liberties.`
 				decline
-
-mission "Hai Boarding License"
-	landing
-	source
-		government "Hai"
-	destination "Luna"
-	
-
-mission "Korath Boarding License"
-	landing
-	source
-		government "Kor Efret"
 
 mission "lol B"
 	landing
