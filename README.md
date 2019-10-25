@@ -1,4 +1,4 @@
-Prevents players from capping ships (easily) and adds licenses that allow the player to capture ships. Currently in alpha
+Prevents players from capping ships (easily) and adds licenses that allow the player to capture ships. Currently in alpha (0.0.1).
 The better the license, the more ships you can cap.
 
 Class A Boarding: (Human) Interceptors/Fighters
